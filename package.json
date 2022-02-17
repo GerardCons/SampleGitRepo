@@ -1,0 +1,29 @@
+{
+  "name": "elective4-gitrepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerardCons/SampleGitRepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GerardCons/SampleGitRepo/issues"
+  },
+  "homepage": "https://github.com/GerardCons/SampleGitRepo#readme",
+  "dependencies": {
+    "@stdlib/datasets-us-states-abbr": "0.0.8",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
